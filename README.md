@@ -10,38 +10,113 @@ The notebooks created using Jupyter Notebook can be shared via email, Dropbox, G
 
 Jupyter Notebook can be directly installed, or it can be installed as a part of Anaconda.
 
-Direct installation:
+_Direct installation:_
 
 `pip install notebook`
 
-Conda installation can be done through `conda-forge`:
+_Conda installation can be done through `conda-forge`:_
 
 `conda install -c conda-forge jupyter`
 
-## How to run
-
-To run the notebook:
+### Open Jupyter Notebook
 
 `jupyter notebook`
 
-## Important links
-
-- [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/latest/).
-- [GitHub repository](https://github.com/jupyter/notebook)
-
 ## Tips & Tricks
 
-- Run Jupyter Notebook from another drive
+### Open from another drive
 
-  Use the below command (replace NameOfTheDrive with the driver letter):
+`jupyter notebook --notebook-dir=NameOfTheDrive:`
 
-  `jupyter notebook --notebook-dir=NameOfTheDrive:`
+### Open from another drive using a Batch file
 
-   Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:
+Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:
 
-   ```
-   @echo ON
-   title Launch Jupyter notebooks from Drive D
-   jupyter notebook --notebook-dir=D:
-   @echo OFF
-   ```
+```
+@echo ON
+title Launch Jupyter notebooks from Drive D
+jupyter notebook --notebook-dir=D:
+@echo OFF
+```
+
+### Embedding images
+
+`![title](img/picture.png)`
+
+### Checking Python version
+
+`!python --version`
+
+### Recover deleted cell
+
+__Edit -> Undo Delete Cells__
+
+### Show line numbers
+
+__View -> Toggle Line Numbers__
+
+### 500: Internal Server Error
+
+_Upgrade Jupyter Hub:_
+
+```
+pip install --upgrade jupyterhub
+pip install --upgrade --user nbconvert
+```
+
+_In case the above commands does not work:_
+
+`pip install --upgrade nbconvert`
+
+_From within `conda` environment:_
+
+`conda install nbconvert==5.4.1`
+
+### Run R and Python from the same Notebook
+
+`pip install rpy2`
+
+_After rpy2 is installed, run the following code once in a cell:_
+
+`%load_ext rpy2.ipython`
+
+## Important links
+
+- [Documentation](https://jupyter-notebook.readthedocs.io/en/latest/)
+- [GitHub repository](https://github.com/jupyter/notebook)
+- [Themes](https://github.com/dunovank/jupyter-themes)
+- [Built-in Magic Commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
+- [nbconvert](https://nbconvert.readthedocs.io/) _For converting Notebooks into other formats._
+- [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [Papermill](https://github.com/nteract/papermill) _Tool for parameterizing, executing, and analyzing Jupyter Notebooks._
+- [nbparameterise](https://github.com/takluyver/nbparameterise) _Tool to run notebooks with input values._
+- [nbclick](https://github.com/ssciwr/nbclick) _Turn Jupyter notebooks into command line applications._
+- [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&pli=1) _For installing Jupyter Notebook on Android._
+- [Dash](https://github.com/plotly/jupyterlab-dash) _Extension for the Interactive development of Dash apps in JupyterLab._
+
+## Jupyter Notebook Kernels
+
+- [Java](https://github.com/SpencerPark/IJava)
+- [C++](https://github.com/jupyter-xeus/xeus-cling)
+- [R](https://github.com/IRkernel/IRkernel)
+- [Scala](https://github.com/almond-sh/almond)
+- [Wolfram](https://github.com/WolframResearch/WolframLanguageForJupyter)
+- [LFortran](https://github.com/lfortran/lfortran)
+- [Elixir](https://github.com/pprzetacznik/IElixir)
+- [C#](https://github.com/zabirauf/icsharp)
+- [OCaml](https://github.com/akabe/ocaml-jupyter)
+- [Stata](https://github.com/kylebarron/stata_kernel)
+- [Scala & Spark](https://github.com/vericast/spylon-kernel)
+- [Common Lisp](https://github.com/yitzchak/common-lisp-jupyter)
+- [nim](https://github.com/stisa/jupyternim)
+- [Lua](https://github.com/guysv/ilua)
+- [kdb+](https://github.com/KxSystems/jupyterq)
+- [Coq](https://github.com/EugeneLoy/coq_jupyter)
+- [Elm](https://github.com/abingham/jupyter-elm-kernel)
+- [Coarray Fortran](https://github.com/sourceryinstitute/jupyter-CAF-kernel)
+- [Dyalog APL](https://github.com/Dyalog/dyalog-jupyter-kernel)
+- [MongoDB](https://github.com/gusutabopb/imongo)
+- [Swift](https://github.com/McJones/jupyter-swift-kernel)
+- [GNU Guile Scheme](https://github.com/jerry40/guile-kernel)
+- [ClickHouse](https://github.com/wangfenjin/xeus-clickhouse)
+- [Fift & FunC](https://github.com/m-kus/xeus-fift)
