@@ -100,6 +100,7 @@ _After rpy2 is installed, run the following code once in a cell:_
 
 ## Jupyter Notebook Kernels
 
+- [Rust](https://github.com/google/evcxr/blob/main/evcxr_jupyter)
 - [Java](https://github.com/SpencerPark/IJava)
 - [C++](https://github.com/jupyter-xeus/xeus-cling)
 - [R](https://github.com/IRkernel/IRkernel)
