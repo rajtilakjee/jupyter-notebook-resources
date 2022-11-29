@@ -1,4 +1,4 @@
-# Jupyter Notebook resources.
+![Jupyter Notebook](./assets/jupyter-notebook.png)
 
 ## Introduction
 
