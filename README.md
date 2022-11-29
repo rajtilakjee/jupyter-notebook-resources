@@ -24,13 +24,13 @@ _Conda installation can be done through `conda-forge`:_
 
 ## Tips & Tricks
 
-### Open from another drive
+__Open from another drive__
 
 `jupyter notebook --notebook-dir=NameOfTheDrive:`
 
-### Open from another drive using a Batch file
+__Open from another drive using a Batch file__
 
-Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:
+_Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:_
 
 ```
 @echo ON
@@ -39,23 +39,23 @@ jupyter notebook --notebook-dir=D:
 @echo OFF
 ```
 
-### Embedding images
+__Embedding images__
 
 `![title](img/picture.png)`
 
-### Checking Python version
+__Checking Python version__
 
 `!python --version`
 
-### Recover deleted cell
+__Recover deleted cell__
 
-__Edit -> Undo Delete Cells__
+Edit -> Undo Delete Cells
 
-### Show line numbers
+__Show line numbers__
 
-__View -> Toggle Line Numbers__
+View -> Toggle Line Numbers
 
-### 500: Internal Server Error
+__500: Internal Server Error__
 
 _Upgrade Jupyter Hub:_
 
@@ -72,7 +72,7 @@ _From within `conda` environment:_
 
 `conda install nbconvert==5.4.1`
 
-### Run R and Python from the same Notebook
+__Run R and Python from the same Notebook__
 
 `pip install rpy2`
 
