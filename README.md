@@ -1,5 +1,7 @@
 ![Jupyter Notebook](./assets/jupyter-notebook.png)
 
+![Open-Source](https://img.shields.io/badge/Open%20Source%20Initiative-3DA639.svg?style=for-the-badge&logo=Open-Source-Initiative&logoColor=white)
+
 ## Introduction
 
 Jupyter Notebook is a part of [Project Jupyter](https://jupyter.org/). It is a web-based IDE which can be tried from your browser from the Project Jupyter website, and used after being installed locally. It offers an interactive, document-centric development environment, and can be used for creating and sharing computational documents. Jupyter Notebook supports 40+ programming languages including Python, Scala, R, and Julia.
