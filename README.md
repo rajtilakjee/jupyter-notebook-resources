@@ -20,6 +20,8 @@ _Conda installation can be done through `conda-forge`:_
 
 ## Open Jupyter Notebook
 
+Open an Anaconda prompt and use the following command:
+
 `jupyter notebook`
 
 ## Tips & Tricks
