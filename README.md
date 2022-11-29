@@ -28,3 +28,18 @@ To run the notebook:
 
 - [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/latest/).
 - [GitHub repository](https://github.com/jupyter/notebook)
+
+## Tips & Tricks
+
+- Run Jupyter Notebook from another drive
+
+Use the below command (replace NameOfTheDrive with the driver letter):
+
+`jupyter notebook --notebook-dir=NameOfTheDrive:`
+
+Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:
+
+`@echo ON
+title Launch Jupyter notebooks from Drive D
+jupyter notebook --notebook-dir=D:
+@echo OFF`
