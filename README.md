@@ -125,3 +125,11 @@ _After rpy2 is installed, run the following code once in a cell:_
 - [GNU Guile Scheme](https://github.com/jerry40/guile-kernel)
 - [ClickHouse](https://github.com/wangfenjin/xeus-clickhouse)
 - [Fift & FunC](https://github.com/m-kus/xeus-fift)
+
+## Contribution
+
+This is an open-source project. We invite your participation through issues and pull requests! Please ensure that you follow the [contributing guidelines](CONTRIBUTING.md). Also, do go through out [code of conduct](CODE_OF_CONDUCT.md) guidelines for contributors.
+
+## List of Contributors
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=rajtilakjee/jupyter-notebook-resources)
