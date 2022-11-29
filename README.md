@@ -18,7 +18,7 @@ _Conda installation can be done through `conda-forge`:_
 
 `conda install -c conda-forge jupyter`
 
-### Open Jupyter Notebook
+## Open Jupyter Notebook
 
 `jupyter notebook`
 
