@@ -39,7 +39,9 @@ Use the below command (replace NameOfTheDrive with the driver letter):
 
 Create a Batch file, name it `jupyter.bat`, and then insert the below script in the batch file and save it:
 
-`@echo ON
+```
+@echo ON
 title Launch Jupyter notebooks from Drive D
 jupyter notebook --notebook-dir=D:
-@echo OFF`
+@echo OFF
+```
